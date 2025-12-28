@@ -27,5 +27,5 @@ while True:
     more = input("Add another course? (y/n): ").lower()
     if more != "y":
         break
-gpa=calc_gpa
+gpa=calc_gpa()
 print(f"Your gpa is: {gpa:.2f}")
